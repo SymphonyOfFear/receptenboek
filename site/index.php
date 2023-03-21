@@ -17,13 +17,11 @@
 <body>
     <header>
         <div class="container">
-            <div class="row"> 
-                    <ul>
-                        <li><a href=""><img src='../images/recepten.png'></a></li>
-                        <li><a href=""><img src=""></a></li>
-                        <li><a href=""><img src=""></a></li>
-                    </ul>
-            </div> <!--Einde Row -->
+            <ul>
+                <li><a href=""><img src='../images/recepten.png' class="icons-menu"></a></li>
+                <li><a href=""><img src='../images/recepten.png' class="icons-menu"></a></li>
+                <li><a href=""><img src='../images/recepten.png' class="icons-menu"></a></li>
+            </ul>
             <div class="line"></div>
         </div> <!--Einde Container-->
     </header>

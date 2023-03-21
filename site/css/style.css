@@ -26,20 +26,13 @@ div{
     margin-right: 8%;
 }
 .icons-menu{
-    margin-left: 80px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
     position: relative;
 
 }
-.row {
-    left: 10%;
-    right: 10%;
-    display: inline-block;
-    height: 88%;
-    align-items: center;
-    position: relative;
-}
+
 /* Main */
 
 
