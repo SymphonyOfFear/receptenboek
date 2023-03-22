@@ -36,7 +36,21 @@ nav ul li {
 
 
 }
-
+.btn{
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    transition: background .6s;
+    
+}
+.btn1{
+    background: #cc961d;
+    border: none;
+}
+.btn2{
+    background: transparent;
+    border: #fff;
+}
 /* Header */
 
 
