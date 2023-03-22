@@ -11,6 +11,15 @@
 div {
     display: block;
 }
+i{
+    text-decoration: none;
+}
+.menu-container {
+    display: inline-block;
+    cursor: pointer;
+    font-family: none;
+    
+  }
 
 .container {
     width: 100%;

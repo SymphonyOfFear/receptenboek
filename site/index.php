@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css\style-recepten.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="java\menu.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Webshop</title>
 </head>
@@ -22,20 +24,21 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href=""><img src='../images/recepten.png' class="icons-menu"></a></li>
-                    <li><a href=""><img src='/images/reserveren.png' class="icons-menu"></a></li>  
-                    <li><a href="">
-                        <div onclick="myFunction(this)">
+                <li><i>&#127869;</i></li>
+                    <li><a href=""><i></i></a></li>
+                    <li>
+                        <div class="menu-container"onclick="myFunction(this)">
                             <div class="bar1"></div>
                             <div class="bar2"></div>
                             <div class="bar3"></div>
                         </div>
-                    </a>     </li>
-                </ul> 
-                
-                 
+                        
+                    </li>
+                </ul>
+
+
             </nav>
-            
+
             <div class="line"></div>
 
             <main>
