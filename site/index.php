@@ -39,8 +39,8 @@
                         <h1>The best food & drinks in a refined but relaxed setting.</h1>
                     </div>
                     <div class="btn-container">
-                        <button class="btn btn1">Reserveren</button>
-                        <button class="btn btn2">Bekijk het menu</button>
+                        <a href="#"><button class="btn btn1">Reserveren</button></a>
+                        <a href="#"><button class="btn btn2">Bekijk het menu</button></a>
                     </div>
                 </div><!--Einde Row-->
         </div> <!--Einde Container-->
