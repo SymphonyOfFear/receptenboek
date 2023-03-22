@@ -36,6 +36,7 @@ nav ul li {
 
 
 }
+
 .btn{
     height: 40px;
     width: 160px;
@@ -45,11 +46,10 @@ nav ul li {
 }
 .btn1{
     background: #cc961d;
-    border: none;
+    
 }
 .btn2{
-    background: transparent;
-    border: #fff;
+    background: none;
 }
 /* Header */
 
@@ -71,6 +71,13 @@ display: inline-block;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
+  }
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  .change .bar2 {opacity: 0;}
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
   }
 .icons-menu {
     height: 60px;
