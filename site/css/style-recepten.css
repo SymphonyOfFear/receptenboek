@@ -81,8 +81,8 @@ div {
 
 .menu-icons a{
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 48px;
+    width: 48px;
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 10px 10px 0;
     text-align: center;
@@ -94,14 +94,14 @@ div {
     margin-right: 70px;
     margin-left: -50px;
 }
-.menu-container {
+.menu-container{
     display: inline-block;
     cursor: pointer;
     font-family: none;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 20.25px;
     right: 20px;
-    left: -35px;
+
   }
 
 .container {
@@ -110,6 +110,13 @@ div {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/background.jpg');
     background-size: cover;
     background-position: center;
+}
+.icon1{
+      background-size: cover;
+      background-position: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/reserveren.png');
+      width: 48px;
+      height: 48px;
 }
 
 ul {

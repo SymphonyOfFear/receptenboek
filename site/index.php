@@ -13,10 +13,8 @@
     <link rel="stylesheet" href="css\style-recepten.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="java\menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Webshop</title>
 </head>
@@ -25,21 +23,20 @@
     <header>
         <div class="container">
             <nav>
+                <div class="menu-container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
 
                 <div class="menu-icons">
                     <ul>
-                        <li><a href="#"><i class="fa-solid fa-plate-utensils"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-plate-utensils"></i></a></li>
-                        <div class="menu-container" onclick="myFunction(this)">
-                            <li>
-                                <div class="bar1"></div>
-                                <div class="bar2"></div>
-                                <div class="bar3"></div>
-                            </li>
-                        </div>
+                        <li><a href="#"><img class="icon1"></img></a></li>
+                        <li><a href="#"><i class="fa-solid fa-utensils"></i></a></li>
                     </ul>
-
                 </div>
+
+
             </nav>
 
             <div class="line"></div>
