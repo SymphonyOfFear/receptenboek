@@ -31,7 +31,7 @@
 
                 <div class="menu-icons">
                     <ul>
-                        <li><a href="#"><img class="icon1"></img></a></li>
+                        <li><a href="#"><i class="fa-solid fa-book-open"></i></a></li>
                         <li><a href="#"><i class="fa-solid fa-utensils"></i></a></li>
                     </ul>
                 </div>
