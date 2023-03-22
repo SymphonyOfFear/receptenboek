@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css\style-recepten.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="java\menu.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Webshop</title>
@@ -24,7 +24,8 @@
         <div class="container">
             <nav>
                 <ul>
-                <li><i>&#127869;</i></li>
+                <li><i class="fa-solid fa-plate-utensils"></i></li>
+                <li><i></i></li>
                     <li><a href=""><i></i></a></li>
                     <li>
                         <div class="menu-container"onclick="myFunction(this)">
