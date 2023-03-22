@@ -12,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Webshop</title>
 </head>
 
@@ -36,10 +36,12 @@
                         <li>Restaurant</li>
                     </div>
                     <div class="text-main">
-                    <h1>The best food & drinks in a refined but relaxed setting.</h1>
+                        <h1>The best food & drinks in a refined but relaxed setting.</h1>
                     </div>
-                    <a href="#" class="btn btn4">Reserveren</a>
-                    <a href="#" class="btn btn4">Bekijk het menu</a>
+                    
+                        <button class="btn btn1">Reserveren</button>
+                        <button class="btn btn2">Bekijk het menu</button>
+                    
                 </div><!--Einde Row-->
         </div> <!--Einde Container-->
         </main>
