@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css\style-recepten.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="java\menu.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Webshop</title>
@@ -23,21 +25,21 @@
     <header>
         <div class="container">
             <nav>
-                <ul>
-                <li><i class="fa-solid fa-plate-utensils"></i></li>
-                <li><i></i></li>
-                    <li><a href=""><i></i></a></li>
-                    <li>
-                        <div class="menu-container"onclick="myFunction(this)">
-                            <div class="bar1"></div>
-                            <div class="bar2"></div>
-                            <div class="bar3"></div>
+
+                <div class="menu-icons">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-plate-utensils"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-plate-utensils"></i></a></li>
+                        <div class="menu-container" onclick="myFunction(this)">
+                            <li>
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                            </li>
                         </div>
-                        
-                    </li>
-                </ul>
+                    </ul>
 
-
+                </div>
             </nav>
 
             <div class="line"></div>
@@ -51,9 +53,14 @@
                     <div class="text-main">
                         <h1>The best food & drinks in a refined but relaxed setting.</h1>
                     </div>
-                    <div class="btn-container">
-                        <a href="#"><button class="btn btn1">Reserveren</button></a>
-                        <a href="#"><button class="btn btn2">Bekijk het menu</button></a>
+                    <div class="buttons">
+                        <a href="#"><button class="button btn1">Reserveren<div class="button_horizontaal"></div>
+                                <div class="button_verticaal"></div>
+                            </button></a><a href="#"><button class="button btn2">Bekijk het menu<div
+                                    class="button_horizontaal"></div>
+                                <div class="button_verticaal"></div>
+                            </button></a>
+
                     </div>
                 </div><!--Einde Row-->
         </div> <!--Einde Container-->
