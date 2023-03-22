@@ -38,10 +38,10 @@
                     <div class="text-main">
                         <h1>The best food & drinks in a refined but relaxed setting.</h1>
                     </div>
-                    
+                    <div class="btn-container">
                         <button class="btn btn1">Reserveren</button>
                         <button class="btn btn2">Bekijk het menu</button>
-                    
+                    </div>
                 </div><!--Einde Row-->
         </div> <!--Einde Container-->
         </main>
