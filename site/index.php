@@ -23,18 +23,19 @@
             <nav>
                 <ul>
                     <li><a href=""><img src='../images/recepten.png' class="icons-menu"></a></li>
-                    <li><a href=""><img src='/images/reserveren.png' class="icons-menu"></a></li>
+                    <li><a href=""><img src='/images/reserveren.png' class="icons-menu"></a></li>  
                     <li><a href="">
-                        <div class="menu-container" onclick="myFunction(this)">
+                        <div onclick="myFunction(this)">
                             <div class="bar1"></div>
                             <div class="bar2"></div>
                             <div class="bar3"></div>
                         </div>
-                    </a></li>
-                            
-                        
-                </ul>
+                    </a>     </li>
+                </ul> 
+                
+                 
             </nav>
+            
             <div class="line"></div>
 
             <main>
