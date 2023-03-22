@@ -2,40 +2,97 @@
 *{
     margin: 0;
     padding: 0;
-
+    color: #fff;
+    font-family: 'Alumni Sans', sans-serif;
+    
     
 }
 div{
     display: block;
 }
 .container{
-    width: 100%;
+    width: fit-content;
+    margin: 150px auto;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/background.jpg');
     background-size: cover;
     background-position: center;
 }
+ul{
+    list-style: none;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+   
+    
+}
+.btn{
+    width: 200px;
+    height: 60px;
+    background: #cc961d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.btn4{
 
+}
 /* Header */
+
 
 .line{
     border-style:solid;
-    border-color: white;
+    border-color: #cccc;
     width:80%;
     margin-left: 8%;
     margin-right: 8%;
 }
 .icons-menu{
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     cursor: pointer;
     position: relative;
+    margin-bottom: 25px;
+    top:10px;
+    right: 55%;
 
 }
 
 /* Main */
+.catagorie-restaurant{
+    margin-top:10px;
+}
+.catagorie-restaurant li{
+    list-style:none;
+    display: inline-block;
+    text-decoration: none;
+    top: 10px;
+    font-size: 30px;
+    
+}
 
-
+.row {
+    left: 10%;
+    right: 10%;
+    display: inline-block;
+    height: 88%;
+    align-items: center;
+    position: relative;
+}
+.text-main{
+    text-decoration: none;
+    margin-top: 180px;
+}
 
 
 /* Footer */
