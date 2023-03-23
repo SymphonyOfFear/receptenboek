@@ -14,13 +14,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="java\menu.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Webshop</title>
 </head>
 
 <body>
-    <header>
+    <header> <!--Begin Header -->
 
         <nav>
             <div class="menu-container" onclick="myFunction(this)">
@@ -35,53 +37,60 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </header><!-- Einde Header -->
 
 
-   
-  <!--Begin Footer-->
-  <footer class="footer">
-        <div class="container-footer">
-            <div class="rij">
-                <div class="footer-col">
-                    <h4>Bedrijf</h4>
-                    <ul>
-                        <li><a href="#">Over ons</a></li>
-                        <li><a href="#">Onze services</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
+    <main> <!-- Begin Main -->
+        <div class="container">
+            <div class="row">
+                <div class="catagorie-restaurant">
+                    <li>Lounge |</li>
+                    <li>Restaurant</li>
                 </div>
-                <div class="footer-col">
-                    <h4>Hulp Nodig?</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Leveren over zee</a></li>
-                        <li><a href="#">Refunds</a></li>
-                        <li><a href="#">Status Bestelling</a></li>
-                        <li><a href="#">Betaal opties</a></li>
-                    </ul>
+                <div class="text-main">
+                    <h1>The best food & drinks in a refined but relaxed setting.</h1>
                 </div>
-                <div class="footer-col">
-                    <h4>Online Shop</h4>
-                    <ul>
-                        <li><a href="#">Desktop's</a></li>
-                        <li><a href="#">Laptops</a></li>
-                        <li><a href="#">Gaming Desktop's</a></li>
-                    </ul>
+                <div class="buttons">
+                    <a href="#"><button class="button btn1">Reserveren<div class="button_horizontaal"></div>
+                            <div class="button_verticaal"></div>
+                        </button></a><a href="#"><button class="button btn2">Bekijk het menu<div
+                                class="button_horizontaal"></div>
+                            <div class="button_verticaal"></div>
+                        </button></a>
+
                 </div>
-                <div class="footer-col">
-                    <h4>Volg ons!</h4>
-                    <div class="social-links">
-                        <a href="#"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="#"> <i class="fab fa-twitter"></i></a>
-                        <a href="#"> <i class="fab fa-instagram"></i></i></a>
-                        <a href="#"> <i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+            </div><!--Einde Row-->
+        </div> <!--Einde Container-->
+    </main> <!-- Einde main -->
+    <!-- Begin Footer -->
+    
+        <footer>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
             </div>
-    </footer>
-    </div>
-    <!--Einde Footer-->
+            <ul class="list">
+                <li>
+                    <h4>Handige Links</h4>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <h4>Openingstijden</h4>
+                    <p>Wo t/m Zo</p>
+                    <p>11:00 tot 00:00</p>
+                </li>
+                <li>
+                    <h4>Contact</h4>
+                    <a href="">Adress</a>
+                    <a href="">Postcode</a>
+                    <div class="space-between"></div>
+                    <a href="">Telefoon Nummer</a>
+                    <a href="">Mail</a>
+                </li>
+            </ul>
+        </footer>
+    <!-- Einde Footer -->
 
 </body>
 
