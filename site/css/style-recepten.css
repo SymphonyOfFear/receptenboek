@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     color: #fff;
     font-family: 'Alumni Sans', sans-serif;
 
@@ -10,11 +11,19 @@
 a{
     text-decoration: none;
 }
-
+body{
+    width: 100%;
+}
 div {
     display: block;
 }
-
+header{
+    background-color: #1884f8;
+}
+.menu-open{
+    font-size: 20px;
+    cursor: pointer;
+}
 .button{
     --offset: 10px;
     --border-size: 2px;
@@ -155,16 +164,6 @@ nav ul li {
 /* Header */
 
 
-.line {
-    border-style: ridge;
-    border-color: #cccccc77;
-    border-radius: 180px;
-    
-    margin-right: 5%;
-    margin-left: 5%;
-    align-self: center;
-    
-}
 
 
 .bar1, .bar2, .bar3 {

@@ -15,7 +15,6 @@ $menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,8 +23,6 @@ $menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style-recepten.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="java\menu.js"></script>
@@ -52,30 +49,20 @@ $menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </nav>
     </header>
 
-<div class="container">
+
     <main>
-        
+        <div class="container">
             <div class="row">
                 <div class="catagorie-restaurant">
                     <li>Lounge |</li>
                     <li>Restaurant</li>
                 </div>
-                <div class="text-main">
-                    <h1>The best food & drinks in a refined but relaxed setting.</h1>
-                </div>
-                <div class="buttons">
-                    <a href="#"><button class="button btn1">Reserveren<div class="button_horizontaal"></div>
-                            <div class="button_verticaal"></div>
-                        </button></a><a href="#"><button class="button btn2">Bekijk het menu<div
-                                class="button_horizontaal"></div>
-                            <div class="button_verticaal"></div>
-                        </button></a>
-
-                </div>
+                
+                
             </div><!--Einde Row-->
-       
+        </div> <!--Einde Container-->
     </main>
-     </div> <!--Einde Container-->
+
 
 </body>
 
