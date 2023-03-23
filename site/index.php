@@ -1,18 +1,5 @@
 <?php
-
 // Dit is het startpunt van je applicatie.
-
-
-
-require 'database.php';
-/*$id = $_GET[`MenuId`];*/
-
-$sql = "SELECT * FROM Menu";
-
-$result = mysqli_query($conn, $sql);
-
-$menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
 ?>
 
 
@@ -24,8 +11,6 @@ $menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style-recepten.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="java\menu.js"></script>
@@ -52,9 +37,9 @@ $menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </nav>
     </header>
 
-<div class="container">
+
     <main>
-        
+        <div class="banner">
             <div class="row">
                 <div class="catagorie-restaurant">
                     <li>Lounge |</li>
@@ -73,9 +58,20 @@ $menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
                 </div>
             </div><!--Einde Row-->
-       
+        </div> <!--Einde Container-->
     </main>
-     </div> <!--Einde Container-->
+    <section id="lab_social_icon_footer">
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+        <div class="text-center center-block">
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+    </div>
+</div>
+</section>
 
 </body>
 

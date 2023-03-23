@@ -1,19 +1,7 @@
 <?php
-
 // Dit is het startpunt van je applicatie.
-
-
-
-require 'database.php';
-/*$id = $_GET[`MenuId`];*/
-
-$sql = "SELECT * FROM Menu";
-
-$result = mysqli_query($conn, $sql);
-
-$menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -57,8 +45,6 @@ $menu = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <li>Lounge |</li>
                     <li>Restaurant</li>
                 </div>
-                
-                
             </div><!--Einde Row-->
         </div> <!--Einde Container-->
     </main>
