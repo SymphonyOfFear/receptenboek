@@ -49,7 +49,49 @@
         </div> <!--Einde Container-->
     </main>
 
-
+  <!--Begin Footer-->
+  <footer class="footer">
+        <div class="container-footer">
+            <div class="rij">
+                <div class="footer-col">
+                    <h4>Bedrijf</h4>
+                    <ul>
+                        <li><a href="#">Over ons</a></li>
+                        <li><a href="#">Onze services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Hulp Nodig?</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Leveren over zee</a></li>
+                        <li><a href="#">Refunds</a></li>
+                        <li><a href="#">Status Bestelling</a></li>
+                        <li><a href="#">Betaal opties</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Online Shop</h4>
+                    <ul>
+                        <li><a href="#">Desktop's</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Gaming Desktop's</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Volg ons!</h4>
+                    <div class="social-links">
+                        <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                        <a href="#"> <i class="fab fa-twitter"></i></a>
+                        <a href="#"> <i class="fab fa-instagram"></i></i></a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    </div>
+    <!--Einde Footer-->
 </body>
 
 </html>

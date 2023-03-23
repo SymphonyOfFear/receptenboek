@@ -38,40 +38,50 @@
     </header>
 
 
-    <main>
-        <div class="banner">
-            <div class="row">
-                <div class="catagorie-restaurant">
-                    <li>Lounge |</li>
-                    <li>Restaurant</li>
+   
+  <!--Begin Footer-->
+  <footer class="footer">
+        <div class="container-footer">
+            <div class="rij">
+                <div class="footer-col">
+                    <h4>Bedrijf</h4>
+                    <ul>
+                        <li><a href="#">Over ons</a></li>
+                        <li><a href="#">Onze services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
                 </div>
-                <div class="text-main">
-                    <h1>The best food & drinks in a refined but relaxed setting.</h1>
+                <div class="footer-col">
+                    <h4>Hulp Nodig?</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Leveren over zee</a></li>
+                        <li><a href="#">Refunds</a></li>
+                        <li><a href="#">Status Bestelling</a></li>
+                        <li><a href="#">Betaal opties</a></li>
+                    </ul>
                 </div>
-                <div class="buttons">
-                    <a href="#"><button class="button btn1">Reserveren<div class="button_horizontaal"></div>
-                            <div class="button_verticaal"></div>
-                        </button></a><a href="#"><button class="button btn2">Bekijk het menu<div
-                                class="button_horizontaal"></div>
-                            <div class="button_verticaal"></div>
-                        </button></a>
-
+                <div class="footer-col">
+                    <h4>Online Shop</h4>
+                    <ul>
+                        <li><a href="#">Desktop's</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Gaming Desktop's</a></li>
+                    </ul>
                 </div>
-            </div><!--Einde Row-->
-        </div> <!--Einde Container-->
-    </main>
-    <section id="lab_social_icon_footer">
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<div class="container">
-        <div class="text-center center-block">
-                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-	            <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                <div class="footer-col">
+                    <h4>Volg ons!</h4>
+                    <div class="social-links">
+                        <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                        <a href="#"> <i class="fab fa-twitter"></i></a>
+                        <a href="#"> <i class="fab fa-instagram"></i></i></a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
     </div>
-</div>
-</section>
+    <!--Einde Footer-->
 
 </body>
 
