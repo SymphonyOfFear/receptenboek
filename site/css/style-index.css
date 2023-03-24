@@ -6,32 +6,38 @@
     color: #fff;
     font-family: 'Alumni Sans', sans-serif;
 }
-footer{
-    background-color: #24262b;
-}
-h4{
+
+h4 {
+    font-size: 26px;
     text-transform: capitalize;
     text-decoration: none;
-    color: #333;
+
 }
-a{
+
+a {
     text-decoration: none;
 }
-body{
+
+body {
     width: 100%;
-    font-weight: 400;
+    background-color: #000;
 }
+
 div {
     display: block;
 }
-header{
-    background-color: #1884f8;
+
+.fa-solid,
+.fas {
+    height: 40px;
+    width: 40px;
 }
-.menu-open{
-    font-size: 20px;
-    cursor: pointer;
-}
-.button{
+
+
+
+
+
+.button {
     --offset: 10px;
     --border-size: 2px;
     display: block;
@@ -40,7 +46,8 @@ header{
     appearance: none;
     border: 0;
     background: transparent;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    text-decoration: none;
     letter-spacing: 0.25em;
     outline: none;
     cursor: pointer;
@@ -49,10 +56,13 @@ header{
     box-shadow: inset 0 0 0 var(--border-size) currentcolor;
     transition: background 0.8s ease;
 }
+
 .button:hover {
     background: rgba(100, 0, 0, .03);
 }
-.button__horizontaal, .button__verticaal {
+
+.button__horizontaal,
+.button__verticaal {
     position: absolute;
     top: var(--horizontal-offset, 0);
     right: var(--vertical-offset, 0);
@@ -61,41 +71,49 @@ header{
     transition: transform 0.8s ease;
     will-change: transform;
 }
-.button__horizontaal::before, .button__verticaal::before {
+
+.button__horizontaal::before,
+.button__verticaal::before {
     content: '';
     position: absolute;
     border: inherit;
 }
+
 .button__horizontaal {
     --vertical-offset: calc(var(--offset) * -1);
     border-top: var(--border-size) solid currentcolor;
     border-bottom: var(--border-size) solid currentcolor;
 }
+
 .button__horizontaal::before {
     top: calc(var(--vertical-offset) - var(--border-size));
     bottom: calc(var(--vertical-offset) - var(--border-size));
     left: calc(var(--vertical-offset) * -1);
     right: calc(var(--vertical-offset) * -1);
 }
+
 .button:hover .button__horizontaal {
     transform: scaleX(0);
 }
+
 .button__verticaal {
     --horizontal-offset: calc(var(--offset) * -1);
     border-left: var(--border-size) solid currentcolor;
     border-right: var(--border-size) solid currentcolor;
 }
+
 .button__verticaal::before {
     top: calc(var(--horizontal-offset) * -1);
     bottom: calc(var(--horizontal-offset) * -1);
     left: calc(var(--horizontal-offset) - var(--border-size));
     right: calc(var(--horizontal-offset) - var(--border-size));
 }
+
 .button:hover .button__vertical {
     transform: scaleY(0);
 }
 
-.menu-icons a{
+.menu-icons a {
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -110,16 +128,6 @@ header{
     margin-right: 70px;
     margin-left: -50px;
 }
-.menu-container{
-    display: inline-block;
-    cursor: pointer;
-    font-family: none;
-    position: absolute;
-    margin-top: 20.25px;
-    right: 20px;
-
-  }
-
 
 
 
@@ -127,60 +135,61 @@ ul {
     list-style: none;
 }
 
-nav {
+header {
+    background-color: #cc961d;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav-right {
     flex: 1;
     text-align: right;
     margin-right: 10px;
-    
 }
- 
 
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    
-    margin-right: 5px;
 
-}
-.buttons{
+
+
+.buttons {
     display: flex;
-    
+
 }
 
-.btn1{
+.btn1 {
     height: 60;
     width: 200px;
     border-radius: 20px;
     background: #cc961d;
-    margin-left: 25px;
+    margin-left: 20px;
 
 }
-.btn2{
+
+.btn2 {
     height: 60px;
     width: 200px;
     border-radius: 20px;
     background: #450345;
-    margin-left: 25px;
+    margin-left: 60px;
 }
-/* Header */
 
 
 
 
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-  }
-  .change .bar2 {opacity: 0;}
-  .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-  }
+
+
+
+
+
+
 
 
 /* Main */
@@ -210,6 +219,7 @@ nav ul li {
     text-decoration: none;
     margin-top: 180px;
 }
+
 .container {
     width: 100%;
     height: 100vh;
@@ -217,6 +227,141 @@ nav ul li {
     background-size: cover;
     background-position: center;
 }
+.container-menu{
+    width: 1200px;
+    margin: 0 auto;
+}
 
-/* Footer */
+/* Navigation Overlay */
+.menu-open {
+    font-size: 20px;
+    cursor: pointer;
+}
 
+nav {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #383333a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+}
+
+.nav-links {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+    position: relative;
+    padding: 10px;
+}
+
+.nav-links::before {
+    content: '';
+    height: 1px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #cc961d;
+    transition: all 0.3s ease;
+}
+
+.nav-links::after {
+    content: '';
+    height: 1px;
+    width: 0%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #cc961d;
+    transition: all 0.3s ease;
+}
+
+.nav-links:hover {
+    color: #cc961d;
+}
+
+.nav-links:hover::after,
+.nav-links:hover::before {
+    width: 50%;
+}
+
+.nav-links-social {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links-social span {
+    padding: 0 25px;
+}
+
+.nav-links-social span i {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-links-social span i:hover {
+    color: #cc961d;
+}
+
+.nav-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 30px;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+/* Scrollbar overflow Y */
+
+/* Lengte Scrollbar */
+::-webkit-scrollbar {
+
+    width: 10px;
+    height: -10px;
+}
+
+/* omhoog  en omlaag van scrollbar arrow symbolen verbergen */
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    height: 10px;
+    background-color: #333;
+}
+
+/*Kleur achtergrond scrollbar */
+::-webkit-scrollbar-track-piece {
+    background-color: #333;
+
+}
+
+/* Kleur van de scrollbar pijl van de y as*/
+::-webkit-scrollbar-thumb:vertical {
+    height: 10px;
+    background-color: #cc961d;
+    border: 1px solid #000;
+
+}

@@ -3,7 +3,7 @@
 $host  = "mariadb";
 $dbuser = "root";
 $dbpass = "password";
-$dbname = "Restaurant";
+$dbname = "receptenboek";
 
 // Maak een  database connectie
 $conn = mysqli_connect($host, $dbuser, $dbpass, $dbname);
