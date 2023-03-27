@@ -1,0 +1,87 @@
+
+.receptWrap {
+    border: 1em solid #ccc;
+    background-color: #ccc;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border-top-style: collapse;
+    margin-bottom: 20px;
+}
+.receptWrap h1{
+    padding-left: 18%;
+    font-size: 50px;
+  }
+  .receptWrap i{
+    border: 1px crimson solid;
+    border-radius: 16px;
+    font-size: 30px  ;
+    background-color: crimson;
+  }
+
+.ingredientenwrap{
+    display: inline;
+    border: 1em solid #ccc;
+    background-color: #ccc;
+    padding: 20px;
+    width: 20em;
+    height: auto;
+    border-radius: 20px;
+    border-top-style: collapse;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    
+}
+.ingredienten ul p{
+    border: 1px black solid;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.ingredientenwrap h1{
+    padding-left: 18%;
+    font-size: 50px;
+  }
+.stappenwrap{
+    display: inline;
+    border: 1em solid #ccc;
+    background-color: #ccc;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border-top-style: collapse;
+}
+.stappenwrap ul {
+    list-style: none;
+    counter-reset: li-counter;
+    
+  }
+.stappenwrap h1{
+    padding-left: 45%;
+    font-size: 50px;
+  }
+ .stappenwrap ul li {
+    counter-increment: li-counter;
+    
+  }
+  .stappenwrap p{
+    margin-bottom: 100px;
+    padding-left:70px;
+    font-size: 24px;
+  }
+.stappenwrap li::before{
+    content: counter(li-counter);
+    color: #fff;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border: 2px solid crimson;
+    background-color: crimson;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+}

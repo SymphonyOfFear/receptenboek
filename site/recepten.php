@@ -1,8 +1,7 @@
 <?php
 require 'database.php';
 
-
-$sql = "SELECT * FROM recepten";
+$sql = "SELECT * FROM recepten WHERE specialiteit = 0";
 
 $result = mysqli_query($conn, $sql);
 
@@ -32,11 +31,11 @@ $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <?php include_once 'header.php' ?>
 
     <?php include_once 'nav.php' ?>
-
     <main> <!-- Begin Main -->
-    <?php foreach($recepten as $recept): ?>
-        <div class="card">
 
+    <?php foreach($recepten as $recept): ?>
+        
+        <div class="card">
             <div class="image">
                 <img src="<?php echo $recept ['url'];?>">
             </div>
@@ -47,12 +46,11 @@ $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                </p>
-                <h1 class="product_name"><?php echo $recept['receptNaam'];?></h1>
+    </p>
 
             </div>
-            <a href="recept.php?receptId=<?php echo $recept['receptId'];?>"><button class="button btn1">Bekijk Recept<div class="button_horizontaal"></div>
-                    <div class="button_verticaal"></div>
+            <a href="recept.php?receptId="<?php echo $recept['receptId'] ?>><button class="button btn1">Bekijk Recept<div class="button_horizontaal"></div>
+                    <div class="button_verticaal"></div></a>
         </div>
         <?php endforeach ?>
     </main> <!-- Einde main -->

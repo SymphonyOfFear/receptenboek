@@ -1,12 +1,12 @@
 <?php
 require 'database.php';
-// $id = $_GET[`receptId`];
+$id = $_GET['receptId'];
 
-$sql = "SELECT * FROM recepten";
+$sql = "SELECT * FROM recepten WHERE specialiteit = 1";
 
 $result = mysqli_query($conn, $sql);
 
-$recepten = mysqli_fetch_assoc($result);
+$recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);;
 
 ?>
 
