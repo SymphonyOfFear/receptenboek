@@ -26,11 +26,13 @@ $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Recepten</title>
 </head>
-
 <body>
-    <?php include_once 'header.php' ?>
-
+   
+<?php include_once 'header.php' ?>
     <?php include_once 'nav.php' ?>
+    
+<h1>Aantal Recepten: <?php echo count($recepten) ?></h1>
+
     <main> <!-- Begin Main -->
 
     <?php foreach($recepten as $recept): ?>

@@ -1,5 +1,11 @@
 <?php
-// Dit is het startpunt van je applicatie.
+require 'database.php';
+
+$sql = "SELECT * FROM recepten";
+
+$result = mysqli_query($conn, $sql);
+
+$recept = mysqli_fetch_assoc($result);
 ?>
 
 

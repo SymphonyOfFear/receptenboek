@@ -12,6 +12,5 @@ $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     </div>
     
 </header><!-- Einde Header -->
-<div class="counter">
-<h1>Aantal Recepten: <?php echo count($recepten) ?></h1>
-</div>
+<section class="counter">
+</section>
